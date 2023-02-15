@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "noEmit": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "~components/*": [
+        "components/*"
+      ],
+      "~hooks/*": [
+        "hooks/*"
+      ],
+      "~interfaces/*": [
+        "interfaces/*"
+      ],
+      "~utils": [
+        "utils"
+      ],
+      "~utils/*": [
+        "utils/*"
+      ],
+      "~theme/*": [
+        "theme/*"
+      ],
+      "~icons": [
+        "public/icons/*"
+      ],
+      "~images": [
+        "public/images/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    ".eslintrc.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/stories/*",
+  ]
+}
